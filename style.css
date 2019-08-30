@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	margin: 0.3em o 0.5em;
+}
+
+p{
+	margin: 1em 0;
+}
+
+h1{font-size: 32px;}
+h2{font-size: 26px;}
+h3{font-size: 24px;}
+h4{font-size: 22px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+
+#wrapper{
+	background: #E7D6D7;
+	margin: 20px auto;
+	width: 960px;
+	padding: 15px;
+}
+
+a:link,
+a:visited{
+	color:#5E0983;
+	text-decoration: none;
+}
+a:hover{
+	color:#235E19;
+	text-decortion: underline;
+}
+
+a:active{
+	color:#124BCF;
+}
+
+#header{
+	padding: 10px;
+	margin: 0 0 10px 0;	
+	overflow: hidden;
+}
+
+#header img{
+	margin-left: 70px;
+}
+
+
+#nav{
+	height: 40px;
+	background: #333;
+	margin: 0 0 10px 0;
+}
+
+#nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li{
+	float: left;
+	position: relative;
+	margin-left: 100px;
+}
+
+#nav ul li a{
+	padding: 10px 14px;
+	heading: 20px;
+	display: block;
+	text-decration: none;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited{
+	color:#FFFFFF;
+}
+#nav ul li a:hover{
+	background: #C51417;
+}
+
+#nav ul li a:active{
+	color:#000000;
+	background: #777777;
+}
+
+#main{
+	width: 700px;
+	float: left;
+	margin: 0 0 10px 0;
+	
+	
+}
+
+.img_main{
+	padding: 10px 10px 0 0;
+	float: left;
+	margin-top: 10px;
+}
+
+.img_main p, .stema p{
+    text-align: center;
+    margin: 5px;
+    font-style: italic;
+	color: #212E2E;
+}
+
+.img_geografie, .img_istorie, .biserica{
+	float:right;
+	padding: 10px 0 0 10px;
+	margin: 0;
+}
+.img_geografie p, .img_istorie p, .biserica p{
+	text-align: center;
+	margin: 5px;
+	font-style: italic;
+}
+
+.stema{
+	padding: 4px 10px 0 0;
+	float: left;
+}
+
+#sidebar{
+	width: 240px;
+	float: right;
+	margin: 0 0 10px 0;	
+	padding: 0 5px 0 0;
+}
+.sidebar .block{
+	margin: 0 0 30px;
+}
+#sidebar h2{
+	background: #BBBBBB;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+#footer{
+	background: #333333;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	clear: both;
+	text-align: center;
+	color: aliceblue;
+}
+
+#footer p{
+	margin: 0;
+}
